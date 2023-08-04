@@ -10,6 +10,7 @@ def menuOptions():
     # concept of iteration 
     optionList = ["1","2","3","4","5","6"]
     # print(type(optionList))
+    print("Hi, Welcome to the tblFilms Database :)")
     userChoices = "tblFilms Menu Options\nEnter:\n1. Print.\n2. Add.\n3. Update.\n4. Delete.\n5. Reports.\n6. Exit."
     while options not in optionList:# ["1","2","3","4","5","6"] : execute the indented code block below
         print(userChoices)
